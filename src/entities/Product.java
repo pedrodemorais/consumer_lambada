@@ -38,7 +38,7 @@ public class Product  {
 		p.setPrice(p.getPrice()*1.1);
 		
 	}
-	public  void NaoStaticPriceUpdate( ) {
+	public  void NaoStaticPriceUpdate() {
 		setPrice(getPrice()*1.1);
 		
 	}
